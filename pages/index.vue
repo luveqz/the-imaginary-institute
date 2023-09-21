@@ -1,3 +1,5 @@
 <template>
-  <h1 class="text-3xl font-bold underline"> Hello, Friend. </h1>
+  <div>
+    <TheNavbar class="max-w-content-container mx-auto mt-5 px-4" />
+  </div>
 </template>
