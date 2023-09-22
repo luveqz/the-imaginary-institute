@@ -20,6 +20,7 @@ module.exports = {
 
       yellow: {
         500: '#F5BA25',
+        800: '#473811',
       },
 
       white: '#FFFFFF',
@@ -31,9 +32,16 @@ module.exports = {
       montserrat: ['Montserrat', 'sans-serif'],
     },
 
+    boxShadow: {
+      'dp-01': '0px 2px 2px 0px #00000024, -1px -1px 1px 0px #00000012',
+    },
+
     extend: {
       maxWidth: {
-        'content-container': '960px',
+        'content-container': '1020px',
+      },
+      fontSize: {
+        '4.5xl': '2.5rem',
       },
     },
   },
