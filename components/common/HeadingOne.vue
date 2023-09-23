@@ -1,3 +1,5 @@
 <template>
-  <h2 class="text-4.5xl font-extrabold leading-10"> <slot /> </h2>
+  <h2 class="text-2xl font-extrabold leading-tight md:text-4.5xl md:leading-10">
+    <slot />
+  </h2>
 </template>
