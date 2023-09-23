@@ -1,7 +1,9 @@
 <script setup lang="ts">
 defineProps({
   variant: {
-    type: String as PropType<'primary' | 'secondary'>,
+    type: String as PropType<
+      'primary' | 'secondary' | 'tertiary' | 'quaternary'
+    >,
     default: 'primary',
   },
   size: {

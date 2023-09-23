@@ -34,7 +34,7 @@ body {
 }
 
 .quaternary-btn {
-  @apply bg-salmon-500 text-salmon-500;
+  @apply border-2 border-salmon-500 text-salmon-500;
 }
 
 .big-btn {

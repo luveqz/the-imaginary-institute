@@ -25,6 +25,7 @@ module.exports = {
 
       white: '#FFFFFF',
       black: '#35312F',
+      gray: '#f0f0f0',
       transparent: 'transparent',
     },
 
@@ -40,11 +41,12 @@ module.exports = {
       maxWidth: {
         'content-container': '1020px',
       },
+
       fontSize: {
         '4.5xl': '2.5rem',
       },
     },
   },
 
-  plugins: [],
+  plugins: [require('@tailwindcss/container-queries')],
 }

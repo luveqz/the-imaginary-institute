@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@tailwindcss/container-queries": "^0.1.1",
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.7.3",
     "postcss": "^8.4.30",
