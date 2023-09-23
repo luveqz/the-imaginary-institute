@@ -11,5 +11,7 @@
     <TheCoursesSection class="mx-auto mt-24 max-w-content-container px-4" />
 
     <TheAppStoreSection class="mx-auto mt-24 max-w-content-container px-4" />
+
+    <TheFooter class="mt-16" />
   </div>
 </template>

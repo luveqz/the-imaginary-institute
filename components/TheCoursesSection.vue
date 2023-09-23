@@ -77,7 +77,7 @@ const courses = [
       <BaseButton variant="quaternary">View All</BaseButton>
     </div>
 
-    <div class="mt-8 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-8 grid gap-10 lg:grid-cols-3">
       <CourseCard
         v-for="course in courses"
         :key="course.id"
