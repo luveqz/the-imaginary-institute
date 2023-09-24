@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const links = ['Home', 'Courses', 'Blog', 'About', 'Contact']
+</script>
 
 <template>
   <nav class="flex items-start justify-between">
@@ -10,25 +12,17 @@
     <!-- Right -->
     <div>
       <section class="hidden items-center gap-x-9 md:flex">
-        <nuxt-link class="cursor-pointer text-sm font-semibold">
-          Home
-        </nuxt-link>
-        <nuxt-link class="cursor-pointer text-sm font-semibold">
-          Courses
-        </nuxt-link>
-        <nuxt-link class="cursor-pointer text-sm font-semibold">
-          Blog
-        </nuxt-link>
-        <nuxt-link class="cursor-pointer text-sm font-semibold">
-          About
-        </nuxt-link>
-        <nuxt-link class="cursor-pointer text-sm font-semibold">
-          Contact
+        <nuxt-link
+          v-for="link in links"
+          :key="link"
+          class="cursor-pointer text-sm font-semibold hover:opacity-70 active:opacity-100"
+        >
+          {{ link }}
         </nuxt-link>
 
-        <nuxt-link class="cursor-pointer text-sm font-semibold">
+        <nuxt-link class="group cursor-pointer text-sm font-semibold">
           <div
-            class="rounded-full bg-salmon-100 px-3 py-2 text-salmon-700"
+            class="rounded-full bg-salmon-100 px-3 py-2 text-salmon-700 group-hover:text-salmon-700/70 group-active:text-salmon-700/100"
             @click="$modal.open('sign-up')"
           >
             Sign Up

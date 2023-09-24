@@ -14,11 +14,11 @@ import { types } from '@/lib/constants'
         placeholder="Search course..."
       />
       <SearchIcon
-        class="absolute left-7 top-1/2 -translate-y-1/2 transform peer-focus:text-salmon-500"
+        class="absolute left-7 top-1/2 -translate-y-1/2 transform transition-colors duration-200 peer-focus:text-salmon-500"
       />
 
       <span
-        class="absolute bottom-0 ml-12 hidden w-[calc(100%_-_3rem)] border border-t-2 border-salmon-500 peer-focus:block"
+        class="absolute bottom-0 ml-12 block w-[calc(100%_-_3rem)] border border-t-2 border-transparent transition-colors duration-500 peer-focus:border-salmon-500"
       />
     </div>
 

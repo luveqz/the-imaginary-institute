@@ -26,21 +26,28 @@ const selectedItem = ref(props.list[0])
     </ListboxButton>
 
     <div class="relative">
-      <ListboxOptions
-        class="absolute left-0 top-0 z-10 w-full overflow-hidden rounded-3xl border border-black/20 bg-gray-200"
+      <transition
+        enter-from-class="opacity-0"
+        enter-active-class="transition-opacity duration-200"
+        leave-active-class="transition-opacity duration-200"
+        leave-to-class="opacity-0"
       >
-        <ListboxOption
-          v-slot="{ selected }"
-          v-for="item in list"
-          :key="item.id"
-          :value="item"
-          class="cursor-pointer px-5 py-2 hover:bg-white"
+        <ListboxOptions
+          class="absolute left-0 top-0 z-10 w-full overflow-hidden rounded-3xl border border-black/20 bg-gray-200"
         >
-          <span :class="{ 'font-semibold': selected }">
-            {{ item.name }}
-          </span>
-        </ListboxOption>
-      </ListboxOptions>
+          <ListboxOption
+            v-slot="{ selected }"
+            v-for="item in list"
+            :key="item.id"
+            :value="item"
+            class="cursor-pointer px-5 py-2 hover:bg-white"
+          >
+            <span :class="{ 'font-semibold': selected }">
+              {{ item.name }}
+            </span>
+          </ListboxOption>
+        </ListboxOptions>
+      </transition>
     </div>
   </Listbox>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <section
-      class="bg-gray-200 flex flex-col items-center pb-12 pt-9 max-md:px-4 md:rounded-3xl"
+      class="flex flex-col items-center bg-gray-200 pb-12 pt-9 max-md:px-4 md:rounded-3xl"
     >
       <HeadingTwo class="text-center text-salmon-500">
         Download Our App
