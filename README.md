@@ -1,23 +1,26 @@
-# Nuxt 3 Minimal Starter
+[![License: MIT](docs/img/license-badge.svg)](LICENSE)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<p align="center">
+  <img alt=" Project Logo" src="docs/img/logo.webp">
+</p>
+
+<p align="center" style="max-width: 380px; margin: auto">
+  The landing page of a fictional e-learning platform. Based on a
+  <a
+    href="https://www.behance.net/koushiknag"
+    target="_blank"
+    rel="noreferrer"
+    class="text-white/100 underline"
+    >Koushik Shuvo</a
+  >’s design.
+</p>
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+npm install # or  yarn install
 ```
 
 ## Development Server
@@ -25,17 +28,7 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+npm run dev # or yarn dev
 ```
 
 ## Production
@@ -43,33 +36,15 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+npm run build # or yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+npm run preview #or yarn preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
