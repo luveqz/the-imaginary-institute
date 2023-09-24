@@ -12,7 +12,9 @@
         Learn From Great Figures Of Literature
       </HeadingOne>
 
-      <p class="text- mt-2 font-medium opacity-70 md:max-w-[27rem] md:text-lg">
+      <p
+        class="mt-2 text-sm font-medium opacity-70 md:max-w-[27rem] md:text-lg"
+      >
         Are you ready to embark on a journey of storytelling excellence? Look no
         further! The Imaginary Institute is your ultimate destination for honing
         your writing skills.

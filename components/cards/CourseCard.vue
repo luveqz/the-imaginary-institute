@@ -30,7 +30,7 @@ defineProps({
 <template>
   <div class="@container">
     <article
-      class="flex flex-col gap-4 rounded-xl p-6 shadow-dp-01 @[31.25rem]:flex-row"
+      class="flex flex-col gap-3 py-4 @[31.25rem]:flex-row @[31.25rem]:gap-4 md:gap-4 md:rounded-xl md:p-6 md:shadow-dp-01"
     >
       <!-- Cover -->
       <div class="w-full grow-0 @[31.25rem]:max-w-[18rem]">
@@ -48,7 +48,7 @@ defineProps({
       <!-- Info -->
       <div class="grow">
         <div class="line-clamp-[5]">
-          <h3 class="text-lg font-bold leading-tight">
+          <h3 class="font-bold leading-tight md:text-lg md:leading-tight">
             {{ title }}
           </h3>
           <p class="mt-0.5 text-sm opacity-50">A course by {{ teacherName }}</p>

@@ -18,16 +18,18 @@ const avatars = [
       draggable="false"
     />
 
-    <div class="relative">
-      <BaseOverline class="mb-2"> Don’t lose momentum </BaseOverline>
+    <div class="relative max-md:text-center">
+      <BaseOverline class="md:mb-2"> Don’t lose momentum </BaseOverline>
       <HeadingTwo class="md:w-7/12"> Meet Your Writing Mentors </HeadingTwo>
 
-      <p class="mt-8 text-base font-medium opacity-70 md:w-7/12">
+      <p
+        class="mt-4 text-sm font-medium opacity-70 md:mt-8 md:w-7/12 md:text-base"
+      >
         Your mentor will provide you with one-on-one guidance tailored to your
         unique goals and writing style.
       </p>
 
-      <section class="mt-6 flex">
+      <section class="mt-4 flex max-md:justify-center md:mt-6">
         <div
           v-for="(avatar, id) in avatars"
           :key="id"
@@ -47,7 +49,9 @@ const avatars = [
         </button>
       </section>
 
-      <p class="mt-6 hidden w-6/12 text-base font-medium opacity-70 lg:block">
+      <p
+        class="mt-4 hidden w-6/12 text-sm font-medium opacity-70 md:mt-6 md:text-base lg:block"
+      >
         Our mentors are published authors, accomplished poets, and seasoned
         screenwriters with a wealth of knowledge and experience in their
         respective fields. They've been where you are and can guide you through
