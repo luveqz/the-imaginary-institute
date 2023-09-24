@@ -48,8 +48,20 @@
 
       <p class="mt-8 text-center text-white/50">
         Based on a
-        <a href="" class="text-white/100 underline">Koushik Shuvo</a>’s design.
-        Developed by <a href="" class="text-white/100 underline">@luvejo</a>.
+        <a
+          href="https://www.behance.net/koushiknag"
+          target="_blank"
+          rel="noreferrer"
+          class="text-white/100 underline"
+          >Koushik Shuvo</a
+        >’s design. Developed by
+        <a
+          href="https://fictolab.co"
+          target="_blank"
+          rel="noreferrer"
+          class="text-white/100 underline"
+          >@luvejo</a
+        >.
       </p>
     </div>
   </footer>
