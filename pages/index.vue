@@ -17,9 +17,9 @@
     />
 
     <TheAppStoreSection
-      class="mx-auto mt-14 max-w-content-container px-4 md:mt-24"
+      class="mx-auto mt-14 max-w-content-container md:mt-24 md:px-4"
     />
 
-    <TheFooter class="mt-16" />
+    <TheFooter class="md:mt-16" />
   </div>
 </template>
