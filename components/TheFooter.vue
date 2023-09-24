@@ -37,9 +37,11 @@
           <div class="round mt-2 flex h-9">
             <input
               type="text"
-              class="h-full rounded-l-xl px-4 py-4 text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-salmon-500"
+              class="h-full rounded-l-xl px-4 py-4 text-black outline-none ring-2 ring-inset ring-transparent transition duration-300 focus:ring-salmon-500"
             />
-            <button class="h-full rounded-r-xl bg-salmon-500 px-3">
+            <button
+              class="h-full rounded-r-xl bg-salmon-500 px-3 hover:brightness-110 active:brightness-100"
+            >
               <CheckIcon />
             </button>
           </div>
