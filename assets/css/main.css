@@ -19,6 +19,28 @@ body {
 }
 
 /*-------------------------------------
+  Scroll Bar
+-------------------------------------*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  @apply bg-gray-200;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  @apply bg-gray-300;
+}
+
+/*-------------------------------------
   Button
 -------------------------------------*/
 .primary-btn {

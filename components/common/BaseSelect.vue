@@ -27,7 +27,7 @@ const selectedItem = ref(props.list[0])
 
     <div class="relative">
       <ListboxOptions
-        class="absolute left-0 top-0 z-10 w-full overflow-hidden rounded-3xl border border-black/20 bg-gray"
+        class="bg-gray-200 absolute left-0 top-0 z-10 w-full overflow-hidden rounded-3xl border border-black/20"
       >
         <ListboxOption
           v-slot="{ selected }"

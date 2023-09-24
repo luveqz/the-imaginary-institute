@@ -23,9 +23,13 @@ module.exports = {
         800: '#473811',
       },
 
+      gray: {
+        200: '#f0f0f0',
+        300: '#C5C3BE',
+      },
+
       white: '#FFFFFF',
       black: '#35312F',
-      gray: '#f0f0f0',
       transparent: 'transparent',
     },
 
