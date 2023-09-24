@@ -1,24 +1,12 @@
 <script setup lang="ts">
-const categories = [
-  { id: 1, name: 'All Categories' },
-  { id: 2, name: 'Novel' },
-  { id: 3, name: 'Poetry' },
-  { id: 4, name: 'Screenplay' },
-  { id: 5, name: 'Non-Fiction' },
-  { id: 6, name: 'Short Stories' },
-]
-
-const type = [
-  { id: 1, name: 'All Types' },
-  { id: 2, name: 'Online' },
-  { id: 3, name: 'On Demand' },
-]
+import { categories } from '@/lib/constants'
+import { types } from '@/lib/constants'
 </script>
 
 <template>
   <form class="flex flex-col gap-2 text-sm" @submit.prevent>
     <BaseSelect :list="categories" />
-    <BaseSelect :list="type" />
+    <BaseSelect :list="types" />
 
     <div class="relative flex">
       <button

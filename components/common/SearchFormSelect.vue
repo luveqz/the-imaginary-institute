@@ -11,6 +11,10 @@ const props = defineProps({
     type: Array as PropType<{ id: number; name: string }[]>,
     required: true,
   },
+  widthClass: {
+    type: String,
+    required: true,
+  },
 })
 
 const selectedItem = ref(props.list[0])
@@ -19,15 +23,16 @@ const selectedItem = ref(props.list[0])
 <template>
   <Listbox v-model="selectedItem">
     <ListboxButton
-      class="flex h-11 w-full items-center justify-between gap-x-5 rounded-full border border-black/20 px-5 py-3"
+      class="flex h-full items-center justify-between gap-x-3 whitespace-nowrap px-5 py-3 font-medium"
+      :class="widthClass"
     >
       {{ selectedItem.name }}
-      <AngleDown />
+      <AngleDown class="shrink-0" />
     </ListboxButton>
 
     <div class="relative">
       <ListboxOptions
-        class="absolute left-0 top-0 z-10 w-full overflow-hidden rounded-3xl border border-black/20 bg-gray-200"
+        class="absolute left-0 top-0 z-10 mt-2 w-full overflow-hidden rounded-xl border border-black/20 bg-gray-200"
       >
         <ListboxOption
           v-slot="{ selected }"
