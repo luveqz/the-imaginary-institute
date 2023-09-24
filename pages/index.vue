@@ -1,8 +1,8 @@
 <template>
   <div class="overflow-x-clip">
-    <TheNavbar class="mx-auto mt-5 max-w-content-container px-4" />
+    <TheNavbar class="sticky top-0 z-20" />
 
-    <TheHeader class="mx-auto mt-7 max-w-content-container px-4 md:mt-20" />
+    <TheHeader class="mx-auto mt-7 max-w-content-container px-4 md:mt-10" />
 
     <TheMapSection
       class="mx-auto mt-14 max-w-content-container px-4 md:mt-24"
