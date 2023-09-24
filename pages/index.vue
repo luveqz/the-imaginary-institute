@@ -24,5 +24,9 @@
 
     <!-- Modals and Menus -->
     <MobileMenu />
+
+    <BaseModal name="sign-up">
+      <SignUpForm />
+    </BaseModal>
   </div>
 </template>

@@ -3,6 +3,7 @@ import { getKeys } from '@/lib/utils/object'
 
 export const MODALS_AND_MENUS = {
   'mobile-menu': false,
+  'sign-up': false,
 }
 
 export const useModalStore = defineStore({

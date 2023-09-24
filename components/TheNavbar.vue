@@ -27,7 +27,10 @@
         </nuxt-link>
 
         <nuxt-link class="cursor-pointer text-sm font-semibold">
-          <div class="rounded-full bg-salmon-100 px-3 py-2 text-salmon-700">
+          <div
+            class="rounded-full bg-salmon-100 px-3 py-2 text-salmon-700"
+            @click="$modal.open('sign-up')"
+          >
             Sign Up
           </div>
         </nuxt-link>
