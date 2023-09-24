@@ -1,7 +1,7 @@
 <template>
   <section class="relative md:h-[32rem]">
     <img
-      src="~/assets/img/character-01.webp"
+      src="/img/character-01.webp"
       alt="Girl sitting with a laptop on her lap"
       class="absolute -right-14 top-0 hidden max-h-[32rem] w-3/5 object-scale-down md:block lg:right-0"
       draggable="false"

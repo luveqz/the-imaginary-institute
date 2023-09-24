@@ -6,8 +6,8 @@
     </HeadingTwo>
 
     <picture>
-      <source srcset="~/assets/img/world-map.webp" media="(min-width: 500px)" />
-      <img src="~/assets/img/profile-cards.webp" alt="Fallback Image" />
+      <source srcset="/img/world-map.webp" media="(min-width: 500px)" />
+      <img src="/img/profile-cards.webp" alt="Fallback Image" />
     </picture>
   </section>
 </template>

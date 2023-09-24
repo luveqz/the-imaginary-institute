@@ -12,7 +12,7 @@ const avatars = [
 <template>
   <section class="relative">
     <img
-      src="~/assets/img/character-02.webp"
+      src="/img/character-02.webp"
       alt="World map with users across all continents"
       class="absolute -right-14 hidden h-full max-h-[27rem] w-6/12 object-scale-down md:block lg:-top-6 lg:h-auto lg:w-auto"
       draggable="false"
