@@ -21,5 +21,8 @@
     />
 
     <TheFooter class="md:mt-16" />
+
+    <!-- Modals and Menus -->
+    <MobileMenu />
   </div>
 </template>

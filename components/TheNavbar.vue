@@ -27,7 +27,7 @@
         </nuxt-link>
 
         <nuxt-link class="cursor-pointer text-sm font-semibold">
-          <div class="text-salmon-700 bg-salmon-100 rounded-full px-3 py-2">
+          <div class="rounded-full bg-salmon-100 px-3 py-2 text-salmon-700">
             Sign Up
           </div>
         </nuxt-link>
@@ -35,7 +35,8 @@
 
       <section class="flex items-center gap-x-9 md:hidden">
         <button
-          class="bg-salmon-100 flex h-9 w-9 items-center justify-center rounded-xl"
+          class="flex h-9 w-9 items-center justify-center rounded-xl bg-salmon-100"
+          @click="$modal.open('mobile-menu')"
         >
           <MenuIcon class="text-salmon-700" />
         </button>
