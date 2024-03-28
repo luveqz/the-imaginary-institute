@@ -78,16 +78,16 @@ const courses = [
     </div>
 
     <div class="mt-4 grid md:mt-8 lg:grid-cols-3 lg:gap-10">
-      <CourseCard
-        v-for="course in courses"
-        :key="course.id"
-        :title="course.title"
-        :description="course.description"
-        :teacher-name="course.teacherName"
-        :cover-url="course.coverUrl"
-        :hours="course.hours"
-        :lessons="course.lessons"
-      />
+      <FadeInOnScroll v-for="course in courses" :key="course.id">
+        <CourseCard
+          :title="course.title"
+          :description="course.description"
+          :teacher-name="course.teacherName"
+          :cover-url="course.coverUrl"
+          :hours="course.hours"
+          :lessons="course.lessons"
+        />
+      </FadeInOnScroll>
     </div>
   </div>
 </template>

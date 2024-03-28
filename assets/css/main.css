@@ -70,3 +70,23 @@ body::-webkit-scrollbar-track {
 .small-btn {
   @apply px-3 py-2 text-sm;
 }
+
+/*-------------------------------------
+  Animations
+-------------------------------------*/
+.animate-slide-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUpFadeIn 1s ease forwards;
+}
+
+@keyframes slideUpFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

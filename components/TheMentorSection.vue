@@ -18,7 +18,7 @@ const avatars = [
       draggable="false"
     />
 
-    <div class="relative max-md:text-center">
+    <FadeInOnScroll class="relative max-md:text-center">
       <BaseOverline class="md:mb-2"> Don’t lose momentum </BaseOverline>
       <HeadingTwo class="md:w-7/12"> Meet Your Writing Mentors </HeadingTwo>
 
@@ -59,6 +59,6 @@ const avatars = [
       </p>
 
       <BaseButton class="mt-4" size="big"> Learn more</BaseButton>
-    </div>
+    </FadeInOnScroll>
   </section>
 </template>

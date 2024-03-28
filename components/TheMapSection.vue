@@ -5,7 +5,7 @@
       Join Our Thriving Learning Community
     </HeadingTwo>
 
-    <div class="mx-auto mt-6 max-h-[32rem] md:mt-7">
+    <FadeInOnScroll class="x-auto mt-6 max-h-[32rem] opacity-0 md:mt-7">
       <picture>
         <source srcset="/img/world-map.webp" media="(min-width: 500px)" />
         <img
@@ -14,6 +14,6 @@
           alt="Fallback Image"
         />
       </picture>
-    </div>
+    </FadeInOnScroll>
   </section>
 </template>

@@ -7,7 +7,7 @@
       draggable="false"
     />
 
-    <div class="relative">
+    <div class="animate-slide-up relative">
       <HeadingOne class="max-w-[22rem]">
         Learn From Great Figures Of Literature
       </HeadingOne>
@@ -20,13 +20,15 @@
         your writing skills.
       </p>
 
-      <div class="hidden md:block">
-        <SearchForm class="mt-12" />
-      </div>
+      <ClientOnly>
+        <div class="hidden md:block">
+          <SearchForm class="mt-12" />
+        </div>
 
-      <div class="block md:hidden">
-        <MobileSearchForm class="mt-8" />
-      </div>
+        <div class="block md:hidden">
+          <MobileSearchForm class="mt-8" />
+        </div>
+      </ClientOnly>
     </div>
   </section>
 </template>
