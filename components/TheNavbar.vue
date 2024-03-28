@@ -11,26 +11,28 @@
       <!-- Right -->
       <div>
         <section class="hidden items-center gap-x-9 md:flex">
-          <NavbarLink> Home </NavbarLink>
+          <ClientOnly>
+            <NavbarLink> Home </NavbarLink>
 
-          <BasePopover>
-            <NavbarLink> About </NavbarLink>
-            <template #content>
-              <p class="text-left text-sm">
-                Not much to say. It's just a ficional app 😁.
-              </p>
-            </template>
-          </BasePopover>
+            <BasePopover>
+              <NavbarLink> About </NavbarLink>
+              <template #content>
+                <p class="text-left text-sm">
+                  Not much to say. It's just a ficional app 😁.
+                </p>
+              </template>
+            </BasePopover>
 
-          <BasePopover>
-            <NavbarLink> Blog </NavbarLink>
-            <template #content>
-              <p class="text-left text-sm">
-                Subscribe to our newsletter to be notified about our blog's
-                launch. Kidding.
-              </p>
-            </template>
-          </BasePopover>
+            <BasePopover>
+              <NavbarLink> Blog </NavbarLink>
+              <template #content>
+                <p class="text-left text-sm">
+                  Subscribe to our newsletter to be notified about our blog's
+                  launch. Kidding.
+                </p>
+              </template>
+            </BasePopover>
+          </ClientOnly>
 
           <nuxt-link class="group cursor-pointer text-sm font-semibold">
             <div
