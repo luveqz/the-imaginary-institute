@@ -18,7 +18,7 @@
               <NavbarLink> About </NavbarLink>
               <template #content>
                 <p class="text-left text-sm">
-                  Not much to say. It's just a ficional app 😁.
+                  Not much to say. It's just a fictional app 😁.
                 </p>
               </template>
             </BasePopover>
